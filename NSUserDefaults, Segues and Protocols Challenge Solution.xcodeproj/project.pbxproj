@@ -14,13 +14,15 @@
 		28EA785A19C9FCF20039A128 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA785919C9FCF20039A128 /* main.m */; };
 		28EA785E19C9FCF20039A128 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA785D19C9FCF20039A128 /* SSAppDelegate.m */; };
 		28EA786119C9FCF20039A128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EA785F19C9FCF20039A128 /* Main.storyboard */; };
-		28EA786419C9FCF20039A128 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA786319C9FCF20039A128 /* SSViewController.m */; };
 		28EA786619C9FCF20039A128 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EA786519C9FCF20039A128 /* Images.xcassets */; };
 		28EA786D19C9FCF30039A128 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EA786C19C9FCF30039A128 /* XCTest.framework */; };
 		28EA786E19C9FCF30039A128 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EA784D19C9FCF20039A128 /* Foundation.framework */; };
 		28EA786F19C9FCF30039A128 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EA785119C9FCF20039A128 /* UIKit.framework */; };
 		28EA787719C9FCF30039A128 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28EA787519C9FCF30039A128 /* InfoPlist.strings */; };
 		28EA787919C9FCF30039A128 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA787819C9FCF30039A128 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */; };
+		28EA788419C9FD8C0039A128 /* SSSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA788319C9FD8C0039A128 /* SSSignInViewController.m */; };
+		28EA788819C9FDB60039A128 /* SSCreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA788719C9FDB60039A128 /* SSCreateAccountViewController.m */; };
+		28EA789119C9FE890039A128 /* SSScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA789019C9FE890039A128 /* SSScreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		28EA785C19C9FCF20039A128 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
 		28EA785D19C9FCF20039A128 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
 		28EA786019C9FCF20039A128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		28EA786219C9FCF20039A128 /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
-		28EA786319C9FCF20039A128 /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
 		28EA786519C9FCF20039A128 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28EA786B19C9FCF30039A128 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EA786C19C9FCF30039A128 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		28EA787419C9FCF30039A128 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		28EA787619C9FCF30039A128 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28EA787819C9FCF30039A128 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		28EA788219C9FD8C0039A128 /* SSSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSSignInViewController.h; path = ../SSSignInViewController.h; sourceTree = "<group>"; };
+		28EA788319C9FD8C0039A128 /* SSSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSSignInViewController.m; path = ../SSSignInViewController.m; sourceTree = "<group>"; };
+		28EA788619C9FDB60039A128 /* SSCreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCreateAccountViewController.h; path = ../SSCreateAccountViewController.h; sourceTree = "<group>"; };
+		28EA788719C9FDB60039A128 /* SSCreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCreateAccountViewController.m; path = ../SSCreateAccountViewController.m; sourceTree = "<group>"; };
+		28EA788F19C9FE890039A128 /* SSScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSScreenViewController.h; path = ../SSScreenViewController.h; sourceTree = "<group>"; };
+		28EA789019C9FE890039A128 /* SSScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSScreenViewController.m; path = ../SSScreenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,7 @@
 				28EA785C19C9FCF20039A128 /* SSAppDelegate.h */,
 				28EA785D19C9FCF20039A128 /* SSAppDelegate.m */,
 				28EA785F19C9FCF20039A128 /* Main.storyboard */,
-				28EA786219C9FCF20039A128 /* SSViewController.h */,
-				28EA786319C9FCF20039A128 /* SSViewController.m */,
+				28EA788519C9FD930039A128 /* Controllers */,
 				28EA786519C9FCF20039A128 /* Images.xcassets */,
 				28EA785419C9FCF20039A128 /* Supporting Files */,
 			);
@@ -150,6 +155,19 @@
 				28EA787519C9FCF30039A128 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28EA788519C9FD930039A128 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28EA788219C9FD8C0039A128 /* SSSignInViewController.h */,
+				28EA788319C9FD8C0039A128 /* SSSignInViewController.m */,
+				28EA788619C9FDB60039A128 /* SSCreateAccountViewController.h */,
+				28EA788719C9FDB60039A128 /* SSCreateAccountViewController.m */,
+				28EA788F19C9FE890039A128 /* SSScreenViewController.h */,
+				28EA789019C9FE890039A128 /* SSScreenViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28EA786419C9FCF20039A128 /* SSViewController.m in Sources */,
+				28EA788819C9FDB60039A128 /* SSCreateAccountViewController.m in Sources */,
 				28EA785E19C9FCF20039A128 /* SSAppDelegate.m in Sources */,
+				28EA789119C9FE890039A128 /* SSScreenViewController.m in Sources */,
+				28EA788419C9FD8C0039A128 /* SSSignInViewController.m in Sources */,
 				28EA785A19C9FCF20039A128 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
